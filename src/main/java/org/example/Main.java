@@ -17,6 +17,15 @@ public class Main {
             for (String s : set) {
                 System.out.println(s);
             }
-        System.out.println(set.contains("Harsh"));
+            System.out.println(set.contains("Harsh"));
+
+            NewHashSet newHashSet = new NewHashSet();
+            newHashSet.getNewHashSet();
+
+            NewLinkedHashSet newSet = new NewLinkedHashSet();
+            newSet.newLinkedHashSet();
+
+            NewTreeSet newTreeSet = new NewTreeSet();
+            newTreeSet.newTreeSet();
     }
 }
